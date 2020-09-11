@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/cargaPlanes.js"></script>
+  <title>Viaje</title>
+</head>
+
+<body>
+  <ionic-app>
+    <ion-header>
+
+      <ion-toolbar color="success">
+        <ion-title class="title">
+          Tus planes - Tandil Junio 2020
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+
+      <ion-button color="primary" size="small" href="planesForm.html">Agregar hospedaje</ion-button>
+      <ion-button color="primary" size="small" href="map.html">Ver en el Mapa</ion-button>
+      <ion-button color="primary" size="small" href="viajes.html">Volver</ion-button>
+
+      <div id="planes">
+
+      </div>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Piedra Movediza</ion-card-title>
+        </ion-card-header>
+
+
+        <ion-card-content>
+          <ion-label>Inicio: 30-5-2020 9:00 am </ion-label></br>
+          <ion-label>Fin: 30-5-2020 11:00 am </ion-label></br>
+          <ion-text>
+            Descripcion:
+            Excursion a la Piedra Movediza.
+          </ion-text>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Cerro el Centinela</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-label>Inicio: 30-5-2020 11:30 am </ion-label></br>
+          <ion-label>Fin: 30-5-2020 13:00 am </ion-label></br>
+          <ion-text>
+            Descripcion:
+            Recorrido en aerosilla.
+            Almuerzo en el restorant del Cerro Centinela.
+          </ion-text>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Dique del Fuerte</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-label>Inicio: 30-5-2020 13:30 am </ion-label></br>
+          <ion-label>Fin: 30-5-2020 17:00 am </ion-label></br>
+          <ion-text>
+            Descripcion:
+            Canotaje en el lago.
+          </ion-text>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+
+          .......
+
+        </ion-card-content>
+
+      </ion-card>
+
+    </ion-content>
+  </ionic-app>
+</body>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+
+</html>

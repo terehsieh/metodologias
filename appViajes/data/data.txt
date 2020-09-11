@@ -1,0 +1,21 @@
+{"thing": {
+"hostelName": "Acapulco",
+"address": "Calle Falsa 123",
+"inputCity": "Tandil",
+"inputZip": "7000",
+"hostelURL": "sitio-oficial",
+"email": "federico.fuhr@live.com",
+"telefono": "43543534",
+"rooms": "1",
+"personas": "1",
+"roomType": "1",
+"diaEntrada": "2020-06-17",
+"diaSalida": "2020-06-24",
+"yes": "yes",
+"no": "no",
+"desayuno": "desayuno",
+"limpieza": "limpieza",
+"coches": "coches",
+"estacionamiento": "estacionamiento"
+}
+}

@@ -1,0 +1,54 @@
+body , html{
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+#map {
+    height: 88%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+ion-toolbar{
+  margin-bottom: 2.5%;
+}
+
+ion-title {
+  text-align: center;
+  padding: 5px;
+}
+ion-toolbar ion-title ion-avatar{
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.buttonLegend{
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
+
+.buttonNormal{
+  text-align: center;
+  bottom:20px;
+  right:20px;
+}
+
+.pre{
+  font-style: italic;
+}
+
+.avatar{
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
